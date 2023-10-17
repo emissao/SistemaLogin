@@ -16,5 +16,15 @@ namespace SistemaLogin
         {
             InitializeComponent();
         }
+
+        private void label_BoasVindas_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            FormLogin f = new FormLogin();
+            f.ShowDialog();
+        }
     }
 }
