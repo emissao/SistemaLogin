@@ -87,7 +87,7 @@
             this.btnCancelar.TabIndex = 4;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
-            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            this.btnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click);
             // 
             // btnSenha
             // 
@@ -99,7 +99,7 @@
             this.btnSenha.TabIndex = 5;
             this.btnSenha.Text = "Entrar";
             this.btnSenha.UseVisualStyleBackColor = true;
-            this.btnSenha.Click += new System.EventHandler(this.btnSenha_Click);
+            this.btnSenha.Click += new System.EventHandler(this.BtnSenha_Click);
             // 
             // FormLogin
             // 

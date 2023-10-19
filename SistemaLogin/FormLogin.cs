@@ -22,14 +22,20 @@ namespace SistemaLogin
 
         }
 
-        private void btnCancelar_Click(object sender, EventArgs e)
+        private void BtnCancelar_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btnSenha_Click(object sender, EventArgs e)
-        {
+        private void BtnSenha_Click(object sender, EventArgs e)
+        {   
+            string nome = txtUsuario.Text;
+            string senha = txtSenha.Text;
 
+            if (CadastroUsuarios.Login(nome, senha))
+            {
+                this.Close();
+            }
         }
 
         private void txtUsuario_TextChanged(object sender, EventArgs e)
